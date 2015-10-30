@@ -18,10 +18,10 @@ int main()
 	string junk;
 	srand(time(NULL));
 	double time;
-	int* p = new int[10000000];
+	int* p = new int[1000000];
 	
 	vector<int> A1, A2, A3, B1, B2, B3, C1, C2, C3, D1, D2, D3, E1, E2, E3;
-	for (int i = 0; i < 10000000; i++)
+	for (int i = 0; i < 1000000; i++)
 	{
 		int num = rand()%1000000;
 		A1.emplace_back(num);
